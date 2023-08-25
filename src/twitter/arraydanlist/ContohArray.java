@@ -7,7 +7,7 @@ public class ContohArray {
         // Mengisi elemen-elemen array
         nilaiSiswa[0] = 90; // disini kita dapat mengisi nilai di variable
         nilaiSiswa[1] = 85;
-        nilaiSiswa[2] = 78;
+        nilaiSiswa[2] = 8;
         nilaiSiswa[3] = 95;
         nilaiSiswa[4] = 8;
 
