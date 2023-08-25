@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ContohArrayDanArrayList {
     public static void main(String[] args) {
         // Menggunakan array untuk menyimpan nilai-nilai ujian
-        int[] nilaiUjian = {85, 90, 78, 92, 88};
+        int[] nilaiUjian = {85, 90, 78, 2, 88};
 
         // Menampilkan nilai ujian dari array
         System.out.print("Nilai Ujian dari Array: ");

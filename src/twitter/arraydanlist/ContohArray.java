@@ -9,7 +9,7 @@ public class ContohArray {
         nilaiSiswa[1] = 85;
         nilaiSiswa[2] = 78;
         nilaiSiswa[3] = 95;
-        nilaiSiswa[4] = 88;
+        nilaiSiswa[4] = 8;
 
         nilaiSiswa[5] = 1;
 

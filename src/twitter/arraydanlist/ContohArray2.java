@@ -14,7 +14,7 @@ public class ContohArray2 {
         angkaArray[0] = 10;
         angkaArray[1] = 20;
         angkaArray[2] = 30;
-        angkaArray[3] = 40;
+        angkaArray[3] = 4;
         angkaArray[4] = 50;
 
         // Mengakses elemen-elemen array
