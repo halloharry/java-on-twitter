@@ -11,6 +11,7 @@ public class ContohArrayList {
         daftarBuah.add("Apel");
         daftarBuah.add("Jeruk");
         daftarBuah.add("Mangga");
+        daftarBuah.add("Nangka");
 
         // Menampilkan isi ArrayList
         System.out.println("Daftar Buah: " + daftarBuah);
