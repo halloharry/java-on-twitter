@@ -1,28 +1,32 @@
 package twitter.model;
 
-public class Mobil {
-    // Atribut yang kita buat bray
-    public String merek;
-    public String warna;
-    public int tahunProduksi;
+// Subkelas Mobil yang mewarisi Kendaraan
+public class Mobil extends Kendaraan {
+    public int jumlahPintu;
 
-    // Konstruktor untuk kelas Karyawan
-    public Mobil(String merek, String warna, int tahunProduksi) {
+    // Konstruktor untuk Mobil
+    public Mobil(String merek, int tahunProduksi, int pintu) {
         this.merek = merek;
-        this.warna = warna;
         this.tahunProduksi = tahunProduksi;
+        this.jumlahPintu = pintu;
     }
 
-    // Metode disini bakal kita pakai untuk memberikan instruksi
-    // apa yang akan dilakukan sama si mobil ini nantinya bray
-    public void menghidupkanMesin() {
-        System.out.println("Method untuk nyalain mobil");
-        System.out.println("Mesin mobil dinyalakan.");
+    // Metode khusus untuk Mobil
+    public void klakson() {
+        System.out.println("Beep beep!");
     }
 
-    public void bergerakMaju() {
-        System.out.println("Method untuk Mobil bergerak maju.");
-        System.out.println("Mobil bergerak maju.");
+    // Override metode info() dari superclass Kendaraan
+    @Override
+    public void info() {
+        System.out.println("Ini adalah mobil merek " + merek + " tahun produksi " + tahunProduksi + " dengan " + jumlahPintu + " pintu.");
     }
+
+    /**
+     * Anotasi @Override adalah salah satu anotasi yang digunakan dalam pemrograman Java untuk memberi
+     * tahu kompiler bahwa metode yang didefinisikan dalam kelas saat ini adalah penggantian dari metode
+     * yang sudah ada dalam superclassnya. Dengan kata lain, Anda menggunakan
+     * @Override untuk mengindikasikan bahwa Anda bermaksud meng-override
+     * (mengganti) metode dari superclass dalam subclass.
+     */
 }
-

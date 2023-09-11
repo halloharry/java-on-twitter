@@ -1,4 +1,4 @@
-package twitter.basicjava.checkpoint;
+package twitter.checkpoint.checkpoint1;
 
 public class Checkpoint1 {
     // Variabel global

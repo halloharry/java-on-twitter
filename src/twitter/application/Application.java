@@ -1,6 +1,6 @@
 package twitter.application;
 
-import twitter.model.Mobil;
+import twitter.model.ContohMobil;
 
 public class Application {
 
@@ -23,16 +23,16 @@ public class Application {
 //        mobilKedua.tahunProduksi = 2021;       // Tahun produksi: 2021
 
         // Membuat objek dari kelas Mobil dengan konstruktor
-        Mobil mobilPertama = new Mobil("Toyota", "Merah", 2022);
-        Mobil mobilKedua = new Mobil("Honda", "Biru", 2021);
+        ContohMobil contohMobilPertama = new ContohMobil("Toyota", "Merah", 2022);
+        ContohMobil contohMobilKedua = new ContohMobil("Honda", "Biru", 2021);
 
         System.out.println(" ");
         // Memanggil metode "menghidupkanMesin" dari objek "mobilPertama"
-        mobilPertama.menghidupkanMesin();       // Output: Mesin mobil dinyalakan.
+        contohMobilPertama.menghidupkanMesin();       // Output: Mesin mobil dinyalakan.
 
         System.out.println("-------------------------------");
         // Memanggil metode "bergerakMaju" dari objek "mobilKedua"
-        mobilKedua.bergerakMaju();
+        contohMobilKedua.bergerakMaju();
 
 
         /**
