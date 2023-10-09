@@ -110,9 +110,3 @@ i
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 _
 /src/twitter/projeksederhana/model/Karyawan.java,2/f/2fd3938dcb0218f11299160c7668edae02dc113f
-J
-src/twitter/oop/Bunyi.java,b/8/b8f3c9ff506f37215f85149d8d0f51303d7c5c42
-K
-src/twitter/oop/Person.java,4/e/4e1d7e65529f0799edbd60b6eb28a90d0fcbec64
-J
-src/twitter/oop/Hewan.java,3/9/39ef8340c42b2023e8a39713c0fb6d554b06073e
