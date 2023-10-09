@@ -1,6 +1,6 @@
-package twitter.projeksederhana.app;
+package twitter.projeksederhanakaryawan.app;
 
-import twitter.projeksederhana.model.Karyawan;
+import twitter.projeksederhanakaryawan.model.Karyawan;
 
 import java.util.*;
 

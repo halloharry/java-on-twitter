@@ -1,4 +1,4 @@
-package twitter.projeksederhana.model;
+package twitter.projeksederhanakaryawan.model;
 
 public class Karyawan {
     private String username;
