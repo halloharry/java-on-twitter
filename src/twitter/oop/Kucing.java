@@ -1,6 +1,6 @@
 package twitter.oop;
 
-public class Kucing extends Hewan implements Bunyi {
+public class Kucing extends Hewan implements Bunyi { // implementasi Bunyi
 
     public Kucing(String jenis) {
         super(jenis);
@@ -21,6 +21,6 @@ public class Kucing extends Hewan implements Bunyi {
     // ini polimofisme dari interface Bunyi bray !
     @Override
     public void berbunyi() {
-        System.out.println("Kucing ini bunyi nya meong bray ! ");
+        System.out.println("kucing ini menggunakan interface Bunyi, meong ! ");
     }
 }
