@@ -1,6 +1,6 @@
-package twitterlanjutan;
+package program.mesin;
 
-import twitterlanjutan.exceptionn.ExceptionCustomMe;
+import program.mesin.exceptionn.ExceptionCustomMe;
 
 import java.util.Scanner;
 

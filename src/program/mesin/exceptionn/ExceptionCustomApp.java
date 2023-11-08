@@ -1,4 +1,4 @@
-package twitterlanjutan.exceptionn;
+package program.mesin.exceptionn;
 
 public class ExceptionCustomApp {
 

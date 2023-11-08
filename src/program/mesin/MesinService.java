@@ -1,6 +1,6 @@
-package twitterlanjutan;
+package program.mesin;
 
-import twitterlanjutan.exceptionn.ExceptionCustomMe;
+import program.mesin.exceptionn.ExceptionCustomMe;
 
 public interface MesinService {
     void beli(String item, int uangPecahan) throws ExceptionCustomMe;

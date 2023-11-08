@@ -1,4 +1,4 @@
-package twitterlanjutan.exceptionn;
+package program.mesin.exceptionn;
 
 // kelas exception Khusus yang kita buat bray
 public class ExceptionCustomMe extends Exception {
